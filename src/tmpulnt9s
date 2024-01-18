@@ -1,0 +1,5 @@
+pub struct Shot {
+	pub x: usize,
+	pub y: usize,
+	pub exploding:
+}

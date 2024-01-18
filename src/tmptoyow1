@@ -1,0 +1,15 @@
+pub struct Score {
+	value: u32;
+}
+
+impl Score {
+	pub fn new() -> Self {
+		Self {
+			value: 0;
+		}
+	}
+
+	pub fn update(&mut self) {
+		s
+	}
+}

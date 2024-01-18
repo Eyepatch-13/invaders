@@ -1,0 +1,3 @@
+pub struct Shot {
+	pub x: u
+}

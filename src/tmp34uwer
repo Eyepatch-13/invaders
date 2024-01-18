@@ -1,0 +1,3 @@
+fn main() -> Result <(), Box(D{
+    println!("Hello, world!");
+}

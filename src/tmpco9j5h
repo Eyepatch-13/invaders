@@ -1,0 +1,32 @@
+// use rusty_audio::Audio;
+
+use rodio::{Decoder, OutputStream, Sink};
+use std::error::Error;
+use std::fs::File;
+use std::io::BufReader;
+
+fn main() -> Result<(), Box<dyn Error>> {
+    let (_stream, stream_handle) = OutputStream::try_default().unwrap();
+    let sink = Sink::try_new(&stream_handle).unwrap();
+
+    let file = BufReader::new(File::open("startup.wav".to_S.unwrap());
+
+    // Add a dummy source of the sake of the example.
+    let source = Decoder::new(file).unwrap();
+    sink.append(source);
+
+    // The sound plays in a separate thread. This call will block the current thread until the sink
+    // has finished playing all its queued sounds.
+    sink.sleep_until_end();
+    /* let mut audio = Audio::new();
+    audio.add("explode", "sounds/explode.wav");
+    audio.add("pew", "sounds/pew.wav");
+    audio.add("win", "sounds/win.wav");
+    audio.add("startup", "sounds/startup.wav");
+    audio.add("lose", "sounds/lose.wav");
+    audio.play("startup");
+
+    // Cleanup
+    audio.wait(); */
+    Ok(())
+}

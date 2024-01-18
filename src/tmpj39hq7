@@ -1,0 +1,6 @@
+pub struct Invader {
+	x: usize,
+	y: usize,
+}
+
+pub struct Invaders 

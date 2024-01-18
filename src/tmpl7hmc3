@@ -1,0 +1,6 @@
+use std::rusty:();
+;
+fn main() -> Result <(), Box<dyn Err>> {
+    let mut audio = Audio::new();
+
+}
