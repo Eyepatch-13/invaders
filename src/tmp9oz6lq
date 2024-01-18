@@ -1,3 +1,0 @@
-fn main() -> Result <(), B{
-    println!("Hello, world!");
-}

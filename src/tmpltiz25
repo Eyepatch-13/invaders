@@ -1,3 +1,0 @@
-fn main() -> Resut{
-    println!("Hello, world!");
-}

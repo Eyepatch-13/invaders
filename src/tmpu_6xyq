@@ -1,3 +1,0 @@
-fn main() -> Result <(), Box<dyn Err>> {
-    println!("Hello, world!");
-}

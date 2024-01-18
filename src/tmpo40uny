@@ -1,4 +1,0 @@
-pub struct Shot {
-	pub x: usize,
-	pub 
-}

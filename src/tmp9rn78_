@@ -1,7 +1,0 @@
-use rusty_audio::Audio;
-u
-
-fn main() -> Result <(), Box<dyn Err>> {
-    let mut audio = Audio::new();
-
-}
